@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: rgb(230, 224, 224);
+}
+
+.container {
+    font-size: 18px;
+}
+
+@media(max-width:500px) {
+    .container {
+        display: block;
+    }
+}
+
+.box-1 {
+    border-radius: 18px;
+    padding: 10px;
+    padding-bottom: 2rem;
+    background: rgb(230, 224, 224);
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.6);
+    margin: auto;
+    margin-top: 5%;
+    display: block;
+    width: 330px;
+    /* transform: skew(10deg); */
+    align-items: center;
+}
+
+.box-2 {
+    border-radius: 18px;
+    padding: 20px;
+    padding-bottom: 2rem;
+    background: rgb(230, 224, 224);
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.6);
+    margin: auto;
+    margin-top: 5%;
+    display: block;
+    width: 450px;
+    /* transform: skew(10deg); */
+    align-items: center;
+}
+
+
+
+
+header {
+    /* font-family: sans-serif; */
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: rgb(27, 27, 27);
+}
+
+.input {
+    box-shadow: -1px 1px 7px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    padding: 9px;
+    border-radius: 24px;
+    width: 250px;
+    outline: none;
+    border: none;
+    transition: 0.2s;
+}
+
+.input:hover {
+    width: 259px;
+    padding: 10px;
+}
+
+.input-1 {
+    margin-left: 1rem;
+    box-shadow: -1px 1px 7px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    padding: 9px;
+    border-radius: 24px;
+    width: 190px;
+    outline: none;
+    border: none;
+    transition: 0.2s;
+}
+
+.input-1:hover,
+.input-2:hover,
+.input-4:hover,
+.input-5:hover {
+    width: 200px;
+    padding: 10px;
+}
+
+.input-2 {
+    box-shadow: -1px 1px 7px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    padding: 9px;
+    border-radius: 24px;
+    width: 190px;
+    outline: none;
+    border: none;
+    transition: 0.2s;
+}
+
+.box-3 {
+    border-radius: 18px;
+    padding: 20px;
+    padding-bottom: 2rem;
+    background: rgb(230, 224, 224);
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.6);
+    margin: auto;
+    margin-top: 5%;
+    display: block;
+    width: 450px;
+    /* transform: skew(10deg); */
+    align-items: center;
+}
+
+.input-3 {
+    box-shadow: -1px 1px 7px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    padding: 9px;
+    border-radius: 24px;
+    width: 400px;
+    outline: none;
+    border: none;
+    transition: 0.2s;
+}
+
+.input-3:hover {
+    width: 410px;
+    padding: 10px;
+}
+
+.input-4 {
+    box-shadow: -1px 1px 7px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    padding: 9px;
+    border-radius: 24px;
+    width: 190px;
+    margin-left: 1rem;
+    outline: none;
+    border: none;
+    transition: 0.2s;
+}
+
+.input-5 {
+    box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    padding: 9px;
+    border-radius: 24px;
+    width: 190px;
+
+    outline: none;
+    border: none;
+    transition: 0.2s;
+}
+
+.input-6 {
+    box-shadow: -1px 1px 7px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    margin-left: 1rem;
+    padding: 9px;
+    border-radius: 24px;
+    width: 255px;
+    outline: none;
+    border: none;
+    transition: 0.2s;
+}
+
+.input-6:hover {
+    width: 259px;
+    padding: 10px;
+}
+
+
+
+::placeholder {
+    font-size: 16px;
+}
+
+.button {
+    font-size: 16px;
+    display: block;
+    color: white;
+    font-weight: 540;
+    box-shadow: -1px 1px 8px rgba(33, 0, 46, 0.993);
+    margin: auto;
+    padding: 12px;
+    border-radius: 24px;
+    width: 250px;
+    outline: none;
+    border: none;
+    background-color: rgb(161, 67, 199);
+    ;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button:hover {
+    width: 260px;
+    padding: 13px;
+    background-color: rgb(189, 27, 27);
+    box-shadow: -1px 1px 8px rgba(99, 0, 0, 0.993);
+
+}
+
+.sendcode {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 530;
+    width: 130px;
+    margin-left: 0.5rem;
+    padding: 9px;
+    border-radius: 24px;
+    background-color: rgb(2, 216, 116);
+    outline: none;
+    border: none;
+    box-shadow: -1px 1px 8px rgba(0, 104, 55, 0.993);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.sendcode:hover {
+    width: 136px;
+    padding: 9.5px;
+    background-color: rgb(129, 80, 80);
+    box-shadow: -1px 1px 8px rgba(58, 22, 22, 0.993);
+
+}
+
+.forgot {
+    text-decoration: none;
+    margin: 2rem;
+}
+
+.forgot:hover,
+.signin:hover,
+.signup:hover,
+.goback:hover {
+    text-decoration: underline;
+}
+
+.signin,
+.goback {
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+
+
+.radio {
+    margin-left: 1.5rem;
+
+}
+
+p {
+    margin: 2rem;
+}
+
+.signup {
+    text-decoration: none;
+    margin-left: 5px;
+}
